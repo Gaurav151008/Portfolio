@@ -2,11 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import vyamanika from "../../Assets/Projects/vyamanika.png";
+import cc from "../../Assets/Projects/cc.png";
+import tyohaar from "../../Assets/Projects/tyohaar.png";
+import kalakaar from "../../Assets/Projects/kalakaar.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={tyohaar}
               isBlog={false}
               title="Tyohaar"
               description="E-commerce website for womens clothing wear. Which is built on react.js and node.js. Database used MongoDB.Atracctive user interface as well as admin panel. Currently deployed on render and netlify."
@@ -34,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={kalakaar}
               isBlog={false}
               title="Kalakaar"
               description="Web application which is provide play role as interface between local, skilled an talented artist and recruirers whom want to hire them for event or concert etc.It is built on NodeJS, html, css, js."
@@ -45,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="">
             <ProjectCard
-              imgPath={editor}
+              imgPath={cc}
               isBlog={false}
               title="Campus Cravings"
               description="A food deliver website within university campus area.Can be used in university where hostels are far from canteens and food outlets. Any user either student or faculties can order food from anywhere within campus. Which can save time and energy. Developed in NodeJS, html, css, js, bootstrap."
@@ -56,7 +55,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={vyamanika}
               isBlog={false}
               title="Vyamanika"
               description="Vyamanika is a company portfolio website which is also sells drone and products. It provides service related to drone like photography, videography, agro spray, etc. Developed in php, mysql database. FutureScope: Shift on node and react js framework and MongoDB database."
@@ -67,7 +66,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bitsOfCode}
               isBlog={false}
               title="IPL Winner Predictor"
               description="This is python based desktop software which uses past 14 years of ipl matches data and process it with machine learning algorithams like SVM, KNN, Decision tree and random forest. Shows accurate probability of winning chances between two teams among all algorithams. Built on python, tkinter, pandas, numpy.ML algos."
